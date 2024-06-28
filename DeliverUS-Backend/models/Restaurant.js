@@ -67,14 +67,6 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.DATE,
       defaultValue: new Date()
-    },
-    discountCode: {
-      allowNull: true,
-      type: DataTypes.STRING
-    },
-    discount: {
-      allowNull: true,
-      type: DataTypes.DOUBLE
     }
   }, {
     sequelize,
